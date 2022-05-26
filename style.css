@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    max-width: 1366px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+header section{
+    position: fixed;
+    text-align: center;
+    height: 122px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu_logo{
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h1{
+    height: 50%;
+    align-items: center;
+    font-weight: 700;
+    margin-left: 6.24vw;
+    margin-top: 50px;
+}
+
+.menu-nav{
+    display: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 0.2rem 3.5rem;
+    font-size: 1.2rem;
+    height: 100%;
+    
+}
+
+header nav{
+    padding: 20px;
+    width: 60.4vw;
+    height: 4.8vh;
+}
+
+header ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    
+}
+
+.header_nave{
+    text-decoration: none;
+    color: black;
+}
+
+header li{
+    width: 80px;
+    height: 50px;
+    margin-left: 3vw;
+}
+
+header li:hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media(max-width:1024px){
+
+
+    .menu-nav{
+        display: initial;
+    }
+
+    header li{
+        display: none;
+    }
+}
+
+main{
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    flex-direction: colum
+}
+
+.banner_main{ 
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    border: solid;
+    background-image: url('img/urn_aaid_sc_US_13ead2e1-3ac9-44a1-b4cb-14736da07bb0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 122px;
+}
+
+.banner_text{
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.banner_text h2{
+    font-size: 2.9rem;
+    width: 60vw;
+    font-weight: bolder;
+    color: white;
+}
+
+.banner_text p{
+    font-size: 2.2rem;
+    margin-top: 4rem;
+    font-weight: 200;
+    color: white;
+}
+
+@media(max-width:771){
+    .banner_text{
+        top: 200px;
+        right: 50px;
+    }
+    
+}
