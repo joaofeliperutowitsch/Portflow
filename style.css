@@ -64,6 +64,7 @@ header ul{
 }
 
 header li{
+    font-size: 1.5rem;
     width: 80px;
     height: 50px;
     margin-left: 3vw;
@@ -117,6 +118,7 @@ header li:hover{
 }
 
 .set_image{
+    cursor: pointer;
     width: 300px;
     height: 389px;
     padding-left: 1rem;
@@ -124,15 +126,6 @@ header li:hover{
 }
 
 @media(max-width:1100px){
-    .footer-box img{
-        width: 30px;
-        height: 30px;
-    }
-
-    .footer-txt{
-        width: 100%;
-    }
-
     header nav{
         margin-right: 9vw;
     }
