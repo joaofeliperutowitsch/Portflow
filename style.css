@@ -9,7 +9,7 @@
 
 header{
     flex-direction: column;
-    max-width: 1366px;
+    max-width: 1920px;
     width: 100%;
 }
       
@@ -83,7 +83,7 @@ header li:hover{
 }
 
 .banner_text{
-    max-width: 1366px;
+    max-width: 1920px;
     width: 70vw;
     height: 400px;
     margin: 0 auto;
@@ -107,7 +107,7 @@ header li:hover{
 
 .img_box--main{
     
-    max-width: 1366px;
+    max-width: 1920px;
     text-align: center;
     flex-wrap: wrap;
     width: 100%;
@@ -129,7 +129,7 @@ header li:hover{
 }
 
 footer{
-    max-width: 1366px;
+    max-width: 1920px;
     width: 100%;
     background-color: #00000020;
     padding: 2rem 0;
@@ -138,7 +138,7 @@ footer{
 
 .container_footer{
     display: flex;
-    max-width: 1366px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -151,7 +151,7 @@ footer{
 
 .set_image--footer{
     margin-left: 2vw;
-    width: 2vw;
+    width: 3vw;
     height: 4vh;
 }
 
@@ -265,6 +265,8 @@ footer{
     .set_image--footer{
         margin: 0 auto;
         height: 20px;
+        width: 4vw;
+        height: 4vh;
     }
     
     .container_footer--text{
